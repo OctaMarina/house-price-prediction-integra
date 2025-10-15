@@ -1,0 +1,29 @@
+Intrați pe branch-ul vostru de GitHub. - DONE
+
+Salvați sub-datasetul vostru într-un fișier .csv. - DONE
+
+Faceți commit și încărcați fișierul pe GitHub. - DONE
+
+Creați un pull request. - DONE
+
+Creați un nou fișier Jupyter Notebook (.ipynb). - DONE
+
+Încărcați datasetul salvat. - DONE
+
+Faceți un subset doar cu coloanele numerice. - DONE
+
+Analizați relațiile dintre variabile folosind un pairplot (similar cu laboratorul trecut). - DONE
+
+Scrieți în notebook observații despre: 
+
+    relația dintre SalePrice și fiecare variabilă numerică; - DONE
+
+    relațiile dintre variabile între ele; - DONE 
+
+    dacă există linearitate și unde. - DONE
+
+Alegeți una sau mai multe variabile care se potrivesc cu SalePrice și dezvoltați un model de regresie. - DONE 
+
+Faceți testul de normalitate și testul de homoscedasticitate. - DONE
+
+Scrieți concluziile voastre despre partea din dataset. - DONE
