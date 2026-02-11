@@ -7,6 +7,9 @@ import './style.css'
 
 const app = createApp(App)
 
-app.use(PrimeVue)
+app.use(PrimeVue, {
+    ripple: true,
+    inputStyle: 'outlined'
+  })
 
 app.mount('#app')

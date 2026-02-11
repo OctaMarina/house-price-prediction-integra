@@ -48,7 +48,7 @@ const resetForm = () => {
 
     <div class="main-container">
       <div class="grid-layout">
-        <div style="position: relative; z-index: 1;">
+        <div>
           <div style="background: rgba(0, 0, 0, 0.4); border: 1px solid rgba(34, 197, 94, 0.3); border-radius: 1rem;">
             <div style="background: linear-gradient(to right, #16a34a, #22c55e); padding: 1.5rem 2rem;">
               <h2 style="font-size: 1.5rem; font-weight: bold; color: white; margin: 0;">

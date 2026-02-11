@@ -16,7 +16,9 @@ def route_predict_price(house_data: HousePredictionInput):
     except FileNotFoundError as e:
         raise HTTPException(status_code=500, detail=f"Pipeline error: {str(e)}")
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Internal server error: {str(e)}")
+        import traceback
+        traceback.print_exc()
+        raise HTTPException(status_code=500, detail=str(e))
 
 
 @router.get("/health")
